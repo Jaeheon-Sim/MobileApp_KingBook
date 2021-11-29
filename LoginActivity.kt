@@ -32,6 +32,8 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login);
+        //init
+        auth = FirebaseAuth.getInstance()
 
         val intent = Intent(applicationContext, SplashActivity::class.java)
         startActivity(intent)
