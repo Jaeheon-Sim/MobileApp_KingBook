@@ -98,6 +98,13 @@ class LoginActivity : AppCompatActivity() {
             }
     }
 
+//    // 유저정보 넘겨주고 메인 액티비티 호출
+//    fun moveMainPage(user: FirebaseUser?){
+//        if( user!= null){
+//            //startActivity(Intent(this,MainActivity::class.java)) // 이건 알아서 고치셈
+//            finish()
+//        }
+//    }
 
     override fun onBackPressed(){
 
